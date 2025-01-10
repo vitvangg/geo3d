@@ -1,0 +1,48 @@
+{
+    "PlayerName": "Name",
+    "StarsCollected": 0,
+    "CoinsCollected": 0,
+    "MusicVolume": 1.0,
+    "SFXVolume": 1.0,
+    "AutoRetryEnabled": true,
+    "AutoCheckpointsEnabled": true,
+    "ProgressBarEnabled": true,
+    "ShowPercentEnabled": true,
+    "PlayerColor1": {
+        "r": 0.4784314036369324,
+        "g": 0.9686275124549866,
+        "b": 0.003921568859368563
+    },
+    "PlayerColor2": {
+        "r": 0.01568627916276455,
+        "g": 0.9529411792755127,
+        "b": 0.9686275124549866
+    },
+    "IconData": [],
+    "LevelData": [
+        {
+            "Name": "Stereo Madness",
+            "NormalPercent": 0.10641099512577057,
+            "PracticePercent": 0.04606536775827408,
+            "GottenCoins": [
+                false,
+                false,
+                false
+            ],
+            "TotalAttempts": 280,
+            "TotalJumps": 1327
+        },
+        {
+            "Name": "Polargeist",
+            "NormalPercent": 0.0,
+            "PracticePercent": 0.0,
+            "GottenCoins": [
+                false,
+                false,
+                false
+            ],
+            "TotalAttempts": 0,
+            "TotalJumps": 3
+        }
+    ]
+}
