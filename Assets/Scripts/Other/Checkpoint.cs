@@ -78,7 +78,7 @@ namespace GD3D
             PlayerOffset = playerMovement.Current3DOffset;
 
             // Set Player Velocity
-            PlayerVelocity = player.Rigidbody.velocity;
+            PlayerVelocity = player.Rigidbody.linearVelocity;
             PlayerAngularVelocity = player.Rigidbody.angularVelocity;
             PlayerOffsetVelocity = playerMovement.OffsetVelocity;
 

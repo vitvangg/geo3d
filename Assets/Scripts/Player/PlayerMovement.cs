@@ -379,7 +379,7 @@ namespace GD3D.Player
                 _in3DMode = false;
 
                 // Reset rigidbody
-                rb.velocity = Vector3.zero;
+                rb.linearVelocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
             }
             else
@@ -393,7 +393,7 @@ namespace GD3D.Player
                 _in3DMode = checkpoint.PlayerIn3DMode;
 
                 // Set rigidbody to the checkpoint values
-                rb.velocity = checkpoint.PlayerVelocity;
+                rb.linearVelocity = checkpoint.PlayerVelocity;
                 rb.angularVelocity = checkpoint.PlayerAngularVelocity;
             }
         }

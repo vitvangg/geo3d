@@ -165,7 +165,7 @@ namespace GD3D.Player
             // Rotate towards the Y velocity while in the air
             if (!OnGround)
             {
-                _targetRot.z = Rigidbody.velocity.y * xRotationModifier;
+                _targetRot.z = Rigidbody.linearVelocity.y * xRotationModifier;
 
                 // Set the angular velocity X to the XRot
                 _targetRot.x = XRot;

@@ -21,8 +21,8 @@ namespace GD3D.Player
         /// </summary>
         public float YVelocity
         {
-            get => rb.velocity.y;
-            set => rb.velocity = new Vector3(rb.velocity.x, value, rb.velocity.z);
+            get => rb.linearVelocity.y;
+            set => rb.linearVelocity = new Vector3(rb.linearVelocity.x, value, rb.linearVelocity.z);
         }
 
         /// <summary>
